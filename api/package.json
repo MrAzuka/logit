@@ -15,5 +15,19 @@
   "bugs": {
     "url": "https://github.com/MrAzuka/logit/issues"
   },
-  "homepage": "https://github.com/MrAzuka/logit#readme"
+  "homepage": "https://github.com/MrAzuka/logit#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "json-web-token": "^3.2.0",
+    "mongoose": "^6.1.3",
+    "passport": "^0.5.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3",
+    "nodemon": "^2.0.15"
+  }
 }
